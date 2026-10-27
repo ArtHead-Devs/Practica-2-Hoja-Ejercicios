@@ -1,0 +1,222 @@
+LOCUS       NC_001393               4439 bp    DNA     circular CON 30-JAN-2025
+DEFINITION  Staphylococcus aureus plasmid pT181, complete sequence.
+ACCESSION   NC_001393
+VERSION     NC_001393.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN14225623
+KEYWORDS    RefSeq; drug resistance protein; origin of replication; repC gene;
+            tetracycline resistance.
+SOURCE      Staphylococcus aureus
+  ORGANISM  Staphylococcus aureus
+            Bacteria; Bacillati; Bacillota; Bacilli; Caryophanales;
+            Staphylococcaceae; Staphylococcus.
+REFERENCE   1  (bases 1 to 4439)
+  AUTHORS   Khan,S.A. and Novick,R.P.
+  TITLE     Complete nucleotide sequence of pT181, a tetracycline-resistance
+            plasmid from Staphylococcus aureus
+  JOURNAL   Plasmid 10 (3), 251-259 (1983)
+   PUBMED   6657777
+COMMENT     ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_009957085.1-RS_2025_01_30
+            Annotation Date                   :: 01/30/2025 02:25:52
+            Annotation Pipeline :: NCBI Prokaryotic Genome Annotation Pipeline
+            (PGAP)
+            Annotation Method :: Best-placed reference protein set; GeneMarkS-2+
+            Annotation Software revision      :: 6.9
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3
+            CDSs (total)                      :: 3
+            Genes (coding)                    :: 2
+            CDSs (with protein)               :: 2
+            Genes (RNA)                       :: 0
+            tRNAs                             :: 0
+            ncRNAs                            :: 0
+            Pseudo Genes (total)              :: 1
+            CDSs (without protein)            :: 1
+            Pseudo Genes (ambiguous residues) :: 0 of 1
+            Pseudo Genes (frameshifted)       :: 1 of 1
+            Pseudo Genes (incomplete)         :: 0 of 1
+            Pseudo Genes (internal stop)      :: 0 of 1
+            ##Genome-Annotation-Data-END##
+            REFSEQ INFORMATION: The reference sequence is identical to
+            J01764.1.
+            pT181 occurs naturally in Staphylococcus aureus and encodes
+            inducible resistance to tetracycline. It contains four open reading
+            frames encoding four putative polypeptides A, 37.5 kDa; B, 35 kDa;
+            C, 23 kDa, and D, 18 kDa [3]. Polypeptide A is the repC protein [2]
+            (bases 4289-794). Polypeptides B and D (bases 956-1843 and
+            1800-2258, respectively) are involved in tetracycline resistance
+            [3]. There is no known function for polypeptide C and deletion of a
+            large portion of it causes no noticeable changes [3]. The
+            recombination site RS-A consists of 24 bp of identity (the core,
+            positions 2448-2472) flanked by some 50 base pairs of decreasing
+            homology with other small Staphylococcal plasmids [4]. The
+            recombination at RS-A is recA-independent and is mediated by a
+            plasmid-encoded, transacting protein, Pre (plasmid recombination)
+            [4].  Pre-mediated recombination is site specific in that it occurs
+            within the core sequence of RS-A in a recA host [4].  Recombination
+            also occurs between two intramolecular RS-A sites [4].  Pre-RS-A is
+            not involved in plasmid maintenance [4].
+            Replication, originating in a 168 bp span, proceeds
+            unidirectionally and clockwise (anticlockwise as the map is
+            conventionally drawn) [2].
+            Polypeptide C has been changed to the longer Pre protein by
+            revisions given in [1].
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4439
+                     /organism="Staphylococcus aureus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:1280"
+                     /plasmid="pT181"
+     gene            join(4289..4439,1..794)
+                     /locus_tag="HS736_RS00005"
+                     /old_locus_tag="pT181_p1"
+     CDS             join(4289..4439,1..794)
+                     /locus_tag="HS736_RS00005"
+                     /old_locus_tag="pT181_p1"
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS-2+"
+                     /GO_function="GO:0003677 - DNA binding [Evidence IEA];
+                     GO:0003916 - DNA topoisomerase activity [Evidence IEA]"
+                     /GO_process="GO:0006270 - DNA replication initiation
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation factor domain-containing
+                     protein"
+                     /protein_id="WP_010889937.1"
+                     /translation="MYKNNHANHSNHLENHDLDNFSKTGYSNSRLDAHTVCISDPKLSF
+                     DAMTIVGNLNRDNAQALSKFMSVEPQIRLWDILQTKFKAKALQEKVYIEYDKVKADSWD
+                     RRNMRIEFNPNKLTRDEMIWLKQNIISYMEDDGFTRLDLAFDFEEDLSDYYAMSDKAVK
+                     KTIFYGRNGKPETKYFGVRDSNRFIRIYNKKQERKDNADAEVMSEHLWRVEIELKRDMV
+                     DYWNDCFSDLHILQPDWKTIQRTADRAIVFMLLSDEEEWGKLHRNSRTKYKNLIKEISP
+                     VDLTDLMKSTLKANEKQLQKQIDFWQHEFKFWK"
+     gene            956..2335
+                     /gene="tet(K)"
+                     /locus_tag="HS736_RS00010"
+                     /old_locus_tag="pT181_p2"
+                     /pseudo=""
+     CDS             956..2335
+                     /gene="tet(K)"
+                     /locus_tag="HS736_RS00010"
+                     /old_locus_tag="pT181_p2"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000492283.1"
+                     /GO_function="GO:0008493 - tetracycline transmembrane
+                     transporter activity [Evidence IEA]"
+                     /GO_process="GO:0015904 - tetracycline transmembrane
+                     transport [Evidence IEA]"
+                     /note="frameshifted; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo=""
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tetracycline efflux MFS transporter Tet(K)"
+     gene            2521..3762
+                     /gene="mobV"
+                     /locus_tag="HS736_RS00015"
+                     /old_locus_tag="pT181_p4"
+     CDS             2521..3762
+                     /gene="mobV"
+                     /locus_tag="HS736_RS00015"
+                     /old_locus_tag="pT181_p4"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_010889940.1"
+                     /GO_function="GO:0003677 - DNA binding [Evidence IEA]"
+                     /GO_process="GO:0006310 - DNA recombination [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MobV family relaxase"
+                     /protein_id="WP_010889940.1"
+                     /translation="MSYSIVRVSKVKSGTNTTGIQKHVQRENNNYENEDIDHSKTYLNY
+                     DLVNANKQNFNNLIDEKIEQNYTGKRKIRTDAIKHIDGLITSDNDFFDNQTPEDTKQFF
+                     EYAKEFLEQEYGKDNLLYATVHMDEKTPHMHYGVVPITDDGRLSAKEVVGNKKALTAFQ
+                     DRFNEHVKQRGYGLERGQSRQVTNAKHEQISQYKQKTEYHKQEYERESQKTDHIKQKND
+                     KLMQEYQKSLNTLKKPINVPYEQETEKVGGLFSKEIQEAGNVVISQKDFNEFQKQIKAA
+                     QDISEDYEYIKSGRALDDKDKEIREKDDLLNKAVERIENADDNFNQLYENAKPLKENIE
+                     IALKLLKILLKELERVLGRNTFAERVNKLTEDEPKLNGLAGNLDKKMNPELYSEQEQQQ
+                     EQQKNQKRDRGMHL"
+ORIGIN
+        1 ttggaaatct caaccgagac aacgctcaag ccctttctaa atttatgagt gtagagcccc
+       61 aaataagact ttgggatatt cttcaaacaa agtttaaagc taaagcactt caagaaaaag
+      121 tttatattga atatgacaaa gtgaaagcag atagttggga tagacgtaat atgcgtattg
+      181 aatttaatcc aaacaaactt acacgagatg aaatgatttg gttaaaacaa aatataataa
+      241 gctacatgga agatgacggt tttacaagat tagatttagc ctttgatttt gaagaagatt
+      301 tgagtgacta ctatgcaatg tctgataaag cagttaagaa aactattttt tatggtcgta
+      361 atggtaagcc agaaacaaaa tattttggcg tgagagatag taatagattt attagaattt
+      421 ataataaaaa gcaagaacgt aaagataatg cagatgctga agttatgtct gaacatttat
+      481 ggcgtgtaga aatcgaactt aaaagagata tggtggatta ctggaatgat tgctttagtg
+      541 atttacatat cttgcaacca gattggaaaa ctatccaacg cactgcggat agagcaatag
+      601 tttttatgtt attgagtgat gaagaagaat ggggaaagct tcacagaaat tctagaacaa
+      661 aatataagaa tttgataaaa gaaatttcgc cagtcgattt aacggactta atgaaatcga
+      721 ctttaaaagc gaacgaaaaa caattgcaaa aacaaatcga tttttggcaa catgaattta
+      781 aattttggaa atagtgtaca tattaatatt actgaacaaa aatgatatat ttaaactatt
+      841 ctaatttagg aggatttttt tatgaagtgt ctatttaaaa atttggggaa tttatatgag
+      901 gtgaaagaat aatttacccc tataaacttt agtcacctca agtaaagagg taaaattgtt
+      961 tagtttatat aaaaaattta aaggtttgtt ttatagcgtt ttattttggc tttgtattct
+     1021 ttcatttttt agtgtattaa atgaaatggt tttaaatgtt tctttacctg atattgcaaa
+     1081 tcattttaat actactcctg gaattacaaa ctgggtaaac actgcatata tgttaacttt
+     1141 ttcgatagga acagcagtat atggaaaatt atctgattat ataaatataa aaaaattgtt
+     1201 aattattggt attagtttga gctgtcttgg ttcattgatt gcttttattg gtcacaatca
+     1261 cttttttatt ttgatttttg gtaggttagt acaaggagta ggatctgctg cattcccttc
+     1321 actgattatg gtggttgtag ctagaaatat tacaagaaaa aaacaaggca aagcctttgg
+     1381 ttttatagga tcaattgtag ctttaggtga agggttaggt ccttcaatag ggggaataat
+     1441 agcacattat attcattggt cttacctact tatacttcct atgattacaa tagtaactat
+     1501 accttttctt attaaagtaa tggtacctgg taaatcaaca aaaaatacat tagatatcgt
+     1561 aggtattgtt ttaatgtcta taagtattat atgttttatg ttatttacga caaattataa
+     1621 ttggactttt ttaatactct tcacaatctt ttttgtgatt tttattaaac atatttcaag
+     1681 agtttctaac ccttttatta atcctaaact agggaaaaac attccgttta tgcttggttt
+     1741 gttttctggt tgggctaata ttttctatag tagctggttt tatatcaatg gtgccttata
+     1801 tgatgaaaac tatttatcat gtaaatgtag cgacaatagg taatagtgtt atttttcctg
+     1861 gaaccatgag tgttattgtt tttggttatt ttggtggttt tttagtggat agaaaaggat
+     1921 cattatttgt ttttatttta ggatcattgt ctatctctat aagtttttta actattgcat
+     1981 tttttgttga gtttagtatg tggttgacta cttttatgtt tatatttgtt atgggcgaat
+     2041 tatcttttac taaaacagtt atatcaaaaa tagtatcaag tagtctttct gaagaagaag
+     2101 ttgcttctgg aatgagtttg ctaaatttca caagtttttt atcagaggga acaggtatag
+     2161 caattgtagg aggtttattg tcactacaat tgattaatcg taaactagtt ctggaattta
+     2221 taaattattc ttctggagtg tatagtaata ttctgtagcc atggctaacc ttattattta
+     2281 agttgtcttt tgacgattat tgtatttaaa acgttctgaa aagcagtttg aatagttata
+     2341 ttatattttg gtttagaact atgagtggct agcattttgc cactcatttt ttgcgttagc
+     2401 aaaaacaggt ttaagcctcg cagagcacac gtattaacga cttattaaaa ataagtctag
+     2461 tgtgttagac ttaaactatt aaatacacat aaaacctttg tgcttaggag tgatttttat
+     2521 atgtcttatt ccattgttag agtttcaaaa gttaaatctg gaacaaatac aacgggcata
+     2581 caaaaacatg ttcaaagaga aaataataat tatgaaaatg aagatataga ccatagtaaa
+     2641 acttacttaa attatgattt ggtaaatgct aataaacaga attttaataa cttgattgat
+     2701 gaaaaaatcg aacagaatta tacaggcaaa agaaaaatta gaacagacgc gattaaacac
+     2761 attgatggtt taattacatc agacaatgat ttctttgata atcaaacgcc agaagataca
+     2821 aagcagtttt ttgaatatgc taaagagttt ttagaacaag aatacggtaa agataattta
+     2881 ttatatgcaa cagttcacat ggacgaaaaa acaccacata tgcattatgg cgttgttcca
+     2941 ataactgatg atggtcgttt aagtgctaaa gaagttgtag gtaataaaaa agctttaaca
+     3001 gcgtttcaag atagatttaa tgagcatgtt aaacaacgag gatatggttt agaacgtggg
+     3061 caatcaagac aagtaacaaa tgctaaacat gagcaaataa gtcagtataa acaaaaaaca
+     3121 gaatatcata agcaagaata tgaacgtgag agccaaaaaa cagaccatat aaagcaaaag
+     3181 aacgataaat taatgcaaga gtaccaaaaa tcgttaaata cgcttaaaaa gcctataaat
+     3241 gttccgtatg agcaagaaac tgaaaaagta ggtggtttat ttagcaaaga gatacaagaa
+     3301 gctggaaatg ttgtaataag ccaaaaagat ttcaatgaat ttcagaaaca gataaaagct
+     3361 gctcaagata tttcggaaga ttacgagtat ataaagtctg gtagagcctt agatgataaa
+     3421 gataaggaaa tacgagagaa agatgattta ttaaataaag cagttgagcg tattgaaaac
+     3481 gcagacgata attttaacca actttacgaa aatgcaaagc cacttaaaga gaatatagaa
+     3541 atagcgttaa agcttttaaa aatcttacta aaagagttag aacgagtttt aggaagaaat
+     3601 acctttgcgg aaagagttaa taagttaaca gaagatgaac caaaactaaa tggtttagca
+     3661 ggaaacttag ataaaaaaat gaatccagaa ttatattcag aacaggaaca gcaacaagaa
+     3721 caacaaaaga atcaaaaacg agatagaggt atgcacttat agaacatgca tttatgccga
+     3781 gaaaacttat tggttggaat gggctatgtg ttagctaact tgttagcgag ttggttggac
+     3841 ttgaattggg attaatccca agaaagtacc aactcaacaa cacataaagc cctgtaggtt
+     3901 ccgaccaata aggaaattgg aataaagcaa taaaaggagt tgaagaaatg aaattcagag
+     3961 aagcctttga gaattttata acaagtaagt atgtacttgg tgttttagta gttttaactg
+     4021 tttaccagat aatacaaatg cttaaataaa aaaagacttg atctgattag accaaatctt
+     4081 ttgatagtgt tatattaata acaaaataaa aaggagtcgc tcacgccctg accaaagttt
+     4141 gtgaacgaca tcattcaaag aaaaaaacac tgagttgttt ttataatctt gtatatttag
+     4201 atattaaacg atatttaaat atacatcaag atatatattt gggtgagcga ttccttaaac
+     4261 gaaattgaga ttaaggagtc gattttttat gtataaaaac aatcatgcaa atcattcaaa
+     4321 tcatttggaa aatcacgatt tagacaattt ttctaaaacc ggctactcta atagccggtt
+     4381 ggacgcacat actgtgtgca tatctgatcc aaaattaagt tttgatgcaa tgacgatcg
+//
